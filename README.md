@@ -49,5 +49,5 @@ cd DeepCPP-main
      - `Invalid-2` The peptide sequence does not meet the required length criteria but contains valid residues.
      - `Invalid-3` The peptide sequence meets the required length criteria but contains non-valid residues.
 
-#### Reference (please cite the following paper if you use the present code):
+#### Reference:
 [1]. not yet available
