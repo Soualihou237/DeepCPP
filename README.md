@@ -4,16 +4,7 @@ Cell-penetrating peptides (CPPs) are bioactive molecules characterized by a posi
 
 <img src="DeepCPP.png">
 
-## Setup Environment
-
- 
-  * Clone the repository: `git clone https://github.com/Soualihou237/DeepCPP.git`
-  * Installed required libraries: `conda env create -f environment.yml`## Setup Environment
-
-## Usage
-
-
-### File description
+## File description
 1. `Trained_model:` The directory where the trained model is saved. 
 2. `Data:` The directory containing data for testing purposes.
  	- `test.fasta`: The sample of the test dataset(.fasta).
@@ -22,15 +13,16 @@ Cell-penetrating peptides (CPPs) are bioactive molecules characterized by a posi
  	- `cppprediction.py`: code for performing prediction
 
 ## Getting started
-### Cloning this repository
-```
-git clone https://github.com/Soualihou237/DeepCPP.git
-```
+#### Setup Environment
+ 
+  * Clone the repository: `git clone https://github.com/Soualihou237/DeepCPP.git`
+  * Installed required libraries: `conda env create -f environment.yml`## Setup Environment
+
+### Usage
 ```
 cd DeepCPP-main
 ```
-### Running prediction from fasta file
-#### Usage
+#### Running prediction from fasta file
 ```
 >> python cppprediction.py Data/test.fasta
 
