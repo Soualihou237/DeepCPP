@@ -32,7 +32,7 @@ cd DeepCPP-main
 ### Running prediction from fasta file
 #### Usage
 ```
->> python cppprediction.py test_data/test.fasta
+>> python cppprediction.py Data/test.fasta
 
 ```
 #### Output sample:
